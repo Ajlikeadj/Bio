@@ -1,0 +1,3 @@
+bdaf8cf5ed9fb3ebb003ee0fcc01c45e4f35c7473769878942dbab8ce3c71b63  CompBio-Word-notes.docx
+1782ccf03ca1e779569a548672badf350dc8b5181af730c5eb9b672233a23e64  CompBio-slides.pptx
+93a1b66b913a790eac49abf63dbdc5de8b70f88fdac8bf1ee971c2d075553b15  CompBio-PDF-notes.pdf

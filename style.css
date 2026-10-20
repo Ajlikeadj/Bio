@@ -48,3 +48,10 @@ main{max-width:900px;margin:0 auto;padding:10px 22px 70px}
 #gate.out{opacity:0;pointer-events:none}#gate #pct{font:600 clamp(60px,16vw,170px)/1 'Inter Tight',sans-serif;letter-spacing:-.06em}#gate .fill{height:2px;background:var(--c);width:0;margin-top:10px}
 footer{max-width:1100px;margin:0 auto;padding:30px 22px 80px;color:var(--mut);font-size:15px;border-top:1px solid var(--ink)}footer a{color:var(--ink);font-weight:600}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.dl{position:relative}.dl button{font:inherit;font-family:'JetBrains Mono',monospace;font-size:14px;cursor:pointer;background:transparent;color:var(--ink)}.dl button:hover{background:var(--c);color:#fff}
+.dlmenu{position:absolute;left:0;top:calc(100% + 8px);z-index:20;min-width:260px;background:var(--bg);border:1px solid var(--ink)}.dlmenu[hidden]{display:none}
+.dlmenu a{display:flex;flex-direction:column;padding:12px 16px;text-decoration:none;border-top:1px solid var(--line)}.dlmenu a:first-child{border-top:0}.dlmenu a:hover{background:var(--card)}
+.dlmenu b{font-weight:600}.dlmenu span{font:12px 'JetBrains Mono',monospace;color:var(--mut)}
+/* keep the download menu above the sections that follow the hero */
+.hero{z-index:5}.dl{z-index:6}.dlmenu{z-index:60}
