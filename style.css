@@ -55,3 +55,14 @@ footer{max-width:1100px;margin:0 auto;padding:30px 22px 80px;color:var(--mut);fo
 .dlmenu b{font-weight:600}.dlmenu span{font:12px 'JetBrains Mono',monospace;color:var(--mut)}
 /* keep the download menu above the sections that follow the hero */
 .hero{z-index:5}.dl{z-index:6}.dlmenu{z-index:60}
+.exam{align-items:start;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0 8px}.exam>div,.qs{border:1px solid var(--ink);padding:14px 18px;background:var(--bg)}
+.exam .wide{grid-column:1/-1}.exam b,.qs b{font:12px 'JetBrains Mono',monospace;color:var(--c);font-weight:400;text-transform:uppercase;letter-spacing:.04em}
+.exam p{margin-top:6px;font-size:16px}.exam ol{margin:8px 0 8px 20px}.exam li{margin:3px 0}.qs{margin:8px 0 6px;border-style:dashed}.qs ul{margin:6px 0 0 18px}.qs i{font-style:normal;font:12px 'JetBrains Mono',monospace;color:var(--mut)}
+@media(max-width:700px){.exam{grid-template-columns:1fr}}
+.topic h4.st{font-size:18px;margin:26px 0 6px;padding-top:14px;border-top:1px dashed var(--line);letter-spacing:-.02em}.topic h4.st span{font:11px 'JetBrains Mono',monospace;color:var(--mut);font-weight:400;margin-left:8px}
+.topic .body>h3{font-size:22px;margin:30px 0 4px;padding-top:12px;border-top:1px solid var(--ink)}
+.topic li.l1{margin-left:20px;list-style:circle}.topic li.l2,.topic li.l3{margin-left:40px;list-style:square}
+.topic p{margin:8px 0}.topic .arrow{text-align:center;color:var(--c);margin:0}.topic .note,.topic .cap{color:var(--mut);font-size:15px;font-style:italic}
+.topic figure{margin:12px 0;border:1px solid var(--line);background:#fff;padding:6px}.topic figure img{display:block;max-width:100%;height:auto;margin:0 auto}
+.tw{overflow-x:auto;margin:12px 0}.topic table{border-collapse:collapse;min-width:100%;font-size:15px}.topic th,.topic td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}.topic th{background:var(--card)}
+.src{font:12px 'JetBrains Mono',monospace;color:var(--c)}
